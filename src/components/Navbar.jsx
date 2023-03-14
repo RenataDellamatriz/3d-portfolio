@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { rlogo, menu, close } from "../assets";
 
-export const Navbar = () => {
+const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
@@ -78,3 +78,5 @@ export const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;
